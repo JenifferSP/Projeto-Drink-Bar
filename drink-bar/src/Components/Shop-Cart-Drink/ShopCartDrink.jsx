@@ -1,5 +1,6 @@
 import React from 'react'
 import './ShopCartDrink.css'
+import {BsFillCartXFill} from 'react-icons/bs'
 import Drink_Kart from '../../Img/bebida2.png'
 
 
@@ -19,6 +20,7 @@ function ShopCartDrink() {
                           <h6>Skol Beats</h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                           <p>$ 7,99</p>
                       </div>
+                      <button className='btn-delete-Product' ><BsFillCartXFill/></button>
                   </div>        
            </div> 
            <div className="Check-Box-cart-Drink">
@@ -31,6 +33,7 @@ function ShopCartDrink() {
                           <h6>Skol Beats</h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                           <p>$ 7,99</p>
                       </div>
+                      <button className='btn-delete-Product' ><BsFillCartXFill/></button>
                   </div>        
            </div>    
 
@@ -44,6 +47,7 @@ function ShopCartDrink() {
                           <h6>Skol Beats</h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                           <p>$ 7,99</p>
                       </div>
+                      <button className='btn-delete-Product' ><BsFillCartXFill/></button>
                   </div>        
            </div>   
 

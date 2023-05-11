@@ -1,5 +1,5 @@
 import React from 'react'
-import {BsFillCartXFill} from 'react-icons/bs'
+import {BsFillCartPlusFill} from 'react-icons/bs'
 import './productCard.css'
 import propTypes from 'prop-types'
 import formatCurrency from '../utils/formatCurrency'
@@ -19,7 +19,7 @@ function productCard({data}) {
         </div>
       
         <div className="container-btn-cart">
-            <button type='button' className='button_add-cart'><BsFillCartXFill/></button>
+            <button type='button' className='button_add-cart'><BsFillCartPlusFill/></button>
         </div>
 
     </section>

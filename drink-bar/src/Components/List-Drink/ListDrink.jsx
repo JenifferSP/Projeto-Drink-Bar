@@ -10,7 +10,7 @@ function ListDrink() {
 
   useEffect(() =>{
     /* */
-    fetchProducts( 'iphone').then((response) =>{
+    fetchProducts( 'drnks').then((response) =>{
       setProducts(response);
       console.log(response)
     });

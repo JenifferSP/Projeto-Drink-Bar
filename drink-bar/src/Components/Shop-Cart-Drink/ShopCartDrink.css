@@ -10,6 +10,7 @@
     right: 0;
     top: 13%;
 }
+
 .title-my-kart{
     text-align: center;
     padding: 20px 0 30px 0;
@@ -38,8 +39,14 @@
     width: 90%;
     border-radius: 20px;
 }
+
 .Check-Box-cart-Drink{
     margin: 15px 0 0 18px;
+}
+.Check-Box-cart-Drink:hover{
+    -webkit-box-shadow: 2px 3px 36px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 3px 36px -10px rgba(0,0,0,0.75);
+    box-shadow: 2px 3px 36px -10px rgba(0,0,0,0.75);
 }
 .img-drink-kart{
     position: relative;
@@ -47,6 +54,25 @@
 }
 .model-price-drink{
     margin-top: 10px;
+}
+.btn-delete-Product{
+    height: 20px;
+    font-size: 25px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: var(--beige-color);
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.btn-delete-Product:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
 }
 .Footer_Kart{
     background-image: linear-gradient(to right, #331183 , #5f24cc);
